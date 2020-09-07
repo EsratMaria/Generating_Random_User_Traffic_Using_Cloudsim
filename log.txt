@@ -1,0 +1,95 @@
+Starting simple example...
+Initialising...
+The datacenter ID is: 2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0 in Datacenter_0
+0.0: Broker: Trying to Create VM #1 in Datacenter_0
+0.0: Broker: Trying to Create VM #2 in Datacenter_0
+0.0: Broker: Trying to Create VM #3 in Datacenter_0
+0.0: Broker: Trying to Create VM #4 in Datacenter_0
+0.0: Broker: Trying to Create VM #5 in Datacenter_0
+0.0: Broker: Trying to Create VM #6 in Datacenter_0
+0.0: Broker: Trying to Create VM #7 in Datacenter_0
+0.0: Broker: Trying to Create VM #8 in Datacenter_0
+0.0: Broker: Trying to Create VM #9 in Datacenter_0
+[VmScheduler.vmCreate] Allocation of VM #8 to Host #3 failed by MIPS
+[VmScheduler.vmCreate] Allocation of VM #9 to Host #3 failed by MIPS
+[VmScheduler.vmCreate] Allocation of VM #9 to Host #0 failed by MIPS
+0.1: Broker: VM #0 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #1 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #2 has been created in Datacenter #2, Host #2
+0.1: Broker: VM #3 has been created in Datacenter #2, Host #3
+0.1: Broker: VM #4 has been created in Datacenter #2, Host #4
+0.1: Broker: VM #5 has been created in Datacenter #2, Host #0
+0.1: Broker: VM #6 has been created in Datacenter #2, Host #1
+0.1: Broker: VM #7 has been created in Datacenter #2, Host #2
+0.1: Broker: VM #8 has been created in Datacenter #2, Host #4
+0.1: Broker: VM #9 has been created in Datacenter #2, Host #1
+0.1: Broker: Sending cloudlet 0 to VM #2
+0.1: Broker: Sending cloudlet 1 to VM #7
+0.1: Broker: Sending cloudlet 2 to VM #3
+0.1: Broker: Sending cloudlet 3 to VM #0
+0.1: Broker: Sending cloudlet 4 to VM #6
+0.1: Broker: Sending cloudlet 5 to VM #0
+0.1: Broker: Sending cloudlet 6 to VM #1
+0.1: Broker: Sending cloudlet 7 to VM #8
+0.1: Broker: Sending cloudlet 8 to VM #6
+0.1: Broker: Sending cloudlet 9 to VM #7
+152.38446900671468: Broker: Cloudlet 1 received
+202.44942247598442: Broker: Cloudlet 8 received
+250.45362610498384: Broker: Cloudlet 0 received
+281.21984388586725: Broker: Cloudlet 4 received
+314.85179353094406: Broker: Cloudlet 9 received
+341.1730196930655: Broker: Cloudlet 2 received
+525.7562324445448: Broker: Cloudlet 6 received
+1406.2292066665586: Broker: Cloudlet 5 received
+1415.2180963299581: Broker: Cloudlet 3 received
+1638.8543195973248: Broker: Cloudlet 7 received
+1638.8543195973248: Broker: All Cloudlets executed. Finishing...
+1638.8543195973248: Broker: Destroying VM #0
+1638.8543195973248: Broker: Destroying VM #1
+1638.8543195973248: Broker: Destroying VM #2
+1638.8543195973248: Broker: Destroying VM #3
+1638.8543195973248: Broker: Destroying VM #4
+1638.8543195973248: Broker: Destroying VM #5
+1638.8543195973248: Broker: Destroying VM #6
+1638.8543195973248: Broker: Destroying VM #7
+1638.8543195973248: Broker: Destroying VM #8
+1638.8543195973248: Broker: Destroying VM #9
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Received 10 cloudlets
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID	STATUS	Resource ID	VM ID	Time	Start Time	Finish Time
+	1	SUCCESS		2	7	152.28	0.1		152.38
+	8	SUCCESS		2	6	202.35	0.1		202.45
+	0	SUCCESS		2	2	250.35	0.1		250.45
+	4	SUCCESS		2	6	281.12	0.1		281.22
+	9	SUCCESS		2	7	314.75	0.1		314.85
+	2	SUCCESS		2	3	341.07	0.1		341.17
+	6	SUCCESS		2	1	525.66	0.1		525.76
+	5	SUCCESS		2	0	1406.13	0.1		1406.23
+	3	SUCCESS		2	0	1415.12	0.1		1415.22
+	7	SUCCESS		2	8	1638.75	0.1		1638.85
+
+Simple example finished!

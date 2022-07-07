@@ -4,7 +4,7 @@ In this repository, I generate random user traffic using cloudsim. The cloudlets
 The sample console output has been attached in the ```log.txt``` file.
 
 
-## Simulator Used       
+## Simulator Used      
 * [Cloudsim](https://github.com/Cloudslab/cloudsim)
 ```
 version: 3.0.3

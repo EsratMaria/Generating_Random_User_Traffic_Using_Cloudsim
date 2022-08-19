@@ -12,4 +12,4 @@ version: 3.0.3
 
 ### How to run
 
-Import the file in the working directory of ```cloudsim/example``` and run as usual.        
+Import the file in the working directory of ```cloudsim/example``` and run as usual.       

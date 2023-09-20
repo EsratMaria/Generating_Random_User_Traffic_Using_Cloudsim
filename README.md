@@ -5,7 +5,7 @@ The sample console output has been attached in the ```log.txt``` file.
 
 
 ## Simulator Used
-* [Cloudsim](https://github.com/Cloudslab/cloudsim)    
+* [Cloudsim](https://github.com/Cloudslab/cloudsim)   
 ```
 version: 3.0.3
 ```
